@@ -31,8 +31,7 @@ dependencies beside &quot;ros_base&quot;.
 Release:        %{release}%{?release_suffix}
 Summary:        %{summary}
 Provides:       %{name} = %{version}-%{release}
-Provides:       %{name}%{?_isa} = %{version}-%{release}
-Requires:       %{name}-runtime%{?_isa} = %{version}-%{release}
+Requires:       %{name}-runtime = %{version}-%{release}
 
 %description devel
 rqt_py_common provides common functionality for rqt plugins written in Python.
