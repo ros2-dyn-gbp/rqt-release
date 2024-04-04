@@ -30,7 +30,6 @@ dependencies beside &quot;ros_base&quot;.
 %package devel
 Release:        %{release}%{?release_suffix}
 Summary:        %{summary}
-BuildArch:      noarch
 Provides:       %{name} = %{version}-%{release}
 Provides:       %{name}%{?_isa} = %{version}-%{release}
 Requires:       %{name}-runtime%{?_isa} = %{version}-%{release}
@@ -47,7 +46,6 @@ dependencies beside &quot;ros_base&quot;.
 %package runtime
 Release:        %{release}
 Summary:        %{summary}
-BuildArch:      noarch
 
 %description runtime
 rqt_py_common provides common functionality for rqt plugins written in Python.
